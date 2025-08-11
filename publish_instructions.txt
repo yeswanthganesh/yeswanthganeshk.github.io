@@ -1,0 +1,19 @@
+
+README - Yeswanth Ganesh K Portfolio
+
+Files:
+- index.html        : Portfolio webpage ready to upload to GitHub Pages
+- kommanapalli_yeswanth_ganesh_cv.pdf : Your resume (placeholder). Replace with your real PDF.
+- publish_instructions.txt : Step-by-step instructions to publish at https://yeswanthganeshk.github.io or to use a custom domain.
+
+Steps to publish on GitHub Pages:
+1. Create a GitHub account with username: yeswanthganeshk
+2. Create a new repository named: yeswanthganeshk.github.io
+3. Upload index.html and kommanapalli_yeswanth_ganesh_cv.pdf to the repository root.
+4. Commit and push. GitHub Pages will publish the site at:
+   https://yeswanthganeshk.github.io
+5. To use a custom domain (e.g. yeswanthganeshk.com), purchase a domain and add a CNAME record pointing to yeswanthganeshk.github.io, then add a file named CNAME with your domain inside.
+
+Notes:
+- Replace the placeholder PDF with your real resume file (same filename) so the "Download Resume" link works.
+- To add project code, create separate repositories and link them from this page.

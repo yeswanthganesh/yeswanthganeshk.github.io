@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Yeswanth Ganesh K — Embedded Systems Portfolio</title>
+  <meta name="description" content="Portfolio of Yeswanth Ganesh K — Embedded Systems, IoT, Firmware, Embedded C/C++" />
+  <style>
+    :root{
+      --bg:#f7f9fb; --card:#ffffff; --muted:#667085; --accent:#0b74de;
+      --mono: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    *{box-sizing:border-box}
+    body{font-family:var(--mono); margin:0; background:var(--bg); color:#0f1724; line-height:1.5}
+    .container{max-width:980px; margin:28px auto; padding:24px}
+    .card{background:var(--card); border-radius:12px; padding:22px; box-shadow:0 6px 18px rgba(16,24,40,0.06); margin-bottom:18px}
+    header{display:flex; gap:18px; align-items:center}
+    .avatar{width:92px;height:92px;border-radius:10px;background:linear-gradient(135deg,#e6f0ff,#ffffff);display:flex;align-items:center;justify-content:center;font-weight:700;color:#123}
+    h1{margin:0;font-size:24px}
+    .sub{color:var(--muted); margin-top:6px}
+    .two-col{display:grid;grid-template-columns:1fr 320px;gap:18px;margin-top:18px}
+    section h2{margin:0 0 10px 0;font-size:16px}
+    ul{margin:0;padding-left:18px}
+    .skill-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+    .pill{display:inline-block;padding:6px 10px;border-radius:999px;background:#eef6ff;color:#024e8f;font-size:13px;margin:6px 6px 6px 0}
+    .project{border-left:3px solid #eef6ff;padding:10px 12px;border-radius:6px;background:#fafbff;margin-bottom:10px}
+    .meta{color:var(--muted);font-size:13px}
+    .cta a{display:inline-block;padding:10px 14px;border-radius:8px;background:var(--accent);color:#fff;text-decoration:none;margin-right:8px}
+    footer{margin-top:14px;color:var(--muted);font-size:13px}
+    @media (max-width:880px){ .two-col{grid-template-columns:1fr; } .avatar{width:76px;height:76px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <header>
+        <div class="avatar">YG</div>
+        <div>
+          <h1>Yeswanth Ganesh K</h1>
+          <div class="sub">Embedded Systems Engineer • Firmware • IoT • Linux</div>
+          <div style="margin-top:8px" class="meta">Email: <a href="mailto:yeswanthganeshk@gmail.com">yeswanthganeshk@gmail.com</a> • Mobile: +91-83099-57629</div>
+          <div class="meta" style="margin-top:6px">
+            LinkedIn: <a href="https://www.linkedin.com/in/yeswanth-ganesh-kommanapalli-125ab6347" target="_blank">yeswanth-ganesh-kommanapalli-125ab6347</a> • GitHub: <a href="https://github.com/yeswanthganeshk" target="_blank">yeswanthganeshk</a>
+          </div>
+        </div>
+      </header>
+    </div>
+
+    <div class="two-col">
+      <!-- Left / main -->
+      <div>
+        <div class="card">
+          <section>
+            <h2>Professional Summary</h2>
+            <p>
+              Final-year B.Tech (ECE) student with hands-on experience in Embedded Systems, IoT, and Embedded Linux.
+              Skilled in Embedded C/C++, Python, firmware development and microcontroller platforms (Arduino, ESP32, Raspberry Pi).
+              Experienced with sensor interfacing, peripheral protocols (UART, I2C, SPI), ADC, GPIO and hardware debugging.
+              Familiar with Git version control, Proteus/MPLAB tools, and prototype development. Actively seeking Embedded Developer roles.
+            </p>
+          </section>
+        </div>
+
+        <div class="card">
+          <section>
+            <h2>Experience</h2>
+
+            <div style="margin-bottom:10px">
+              <strong>Embedded Internship — T-Hub Summer Intern</strong>
+              <div class="meta">Hands-on embedded systems development, sensor interfacing, microcontroller programming, prototype testing and debugging.</div>
+              <ul>
+                <li>Worked with Arduino, ESP32 and IoT modules to build and debug prototypes.</li>
+                <li>Implemented firmware in Embedded C, performed circuit testing and collaborated with mentors to improve designs.</li>
+              </ul>
+            </div>
+
+            <div>
+              <strong>Project: Smart College Temperature Monitoring System</strong>
+              <div class="meta">Arduino • DHT11 • LCD • IoT (prototype)</div>
+              <ul>
+                <li>Designed and implemented real-time temperature & humidity monitoring across campus corners using DHT11 sensors and Arduino.</li>
+                <li>Displayed data on LCD and implemented alert notifications; improved sensor interfacing, embedded C coding and debugging skills.</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+
+        <div class="card">
+          <section>
+            <h2>Projects (Selected)</h2>
+
+            <div class="project">
+              <strong>Secure Digital Door Lock System (Keypad + Servo + EEPROM)</strong>
+              <div class="meta">Arduino • 4x4 Keypad • Servo • EEPROM • Embedded C</div>
+              <p>Developed PIN-based access control using interrupt-driven input capture, servo-actuated locking and EEPROM storage to retain codes across power cycles. Focused on reliability and low-latency response.</p>
+            </div>
+
+            <div class="project">
+              <strong>LDR-Based Automatic Lighting System</strong>
+              <div class="meta">Arduino • LDR • ADC • Embedded C</div>
+              <p>Built an automatic lighting system measuring ambient light via LDR (analog input) and switching LEDs using threshold logic. Gained experience with analog reads, debouncing, and power considerations.</p>
+            </div>
+
+            <div class="project">
+              <strong>Smart Brake LED Alert (Proteus Simulation)</strong>
+              <div class="meta">Arduino • MPU6050 • Virtual Terminal • Proteus</div>
+              <p>Prototype for dynamic LED braking alerts using gyroscope data (MPU6050). Implemented basic filtering, threshold detection and virtual terminal logging in Proteus for testing and validation.</p>
+            </div>
+
+            <div class="project">
+              <strong>Custom Microcontroller (Learning Project)</strong>
+              <div class="meta">Logisim/Proteus • Registers • ALU • PC • ROM</div>
+              <p>Phase-1 custom microcontroller build to learn internal architecture — registers, ALU, program counter and instruction decoding.</p>
+            </div>
+          </section>
+        </div>
+
+        <div class="card">
+          <section>
+            <h2>Education</h2>
+            <strong>Aditya College of Engineering & Technology, Surampalem</strong><br/>
+            B.Tech — Electronics & Communication Engineering (2022 – 2026) • CGPA: 6.75 (expected 2026)
+            <hr style="border:none;border-top:1px solid #eef2f7;margin:12px 0" />
+            <strong>Aditya Junior College, Kakinada</strong><br/>
+            Intermediate (MPC) • CGPA: 6.90
+          </section>
+        </div>
+
+        <div class="card">
+          <section>
+            <h2>Certifications</h2>
+            <ul>
+              <li>Embedded Systems Certification — T-Hub</li>
+              <li>Linux Essentials — Red Hat</li>
+              <li>C Programming Certification — CISO</li>
+              <li>C++ Programming Certification — CISO</li>
+              <li>Microprocessor & Microcontrollers — Microchip University</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+
+      <!-- Right / sidebar -->
+      <aside>
+        <div class="card">
+          <section>
+            <h2>Skills</h2>
+
+            <div class="skill-grid" style="margin-bottom:8px">
+              <div>
+                <strong>Programming</strong>
+                <div><span class="pill">C</span><span class="pill">C++</span><span class="pill">Embedded C</span><span class="pill">Python</span></div>
+              </div>
+              <div>
+                <strong>MCUs & Boards</strong>
+                <div><span class="pill">Arduino</span><span class="pill">ESP32</span><span class="pill">Raspberry Pi</span></div>
+              </div>
+            </div>
+
+            <div class="skill-grid" style="margin-bottom:8px">
+              <div>
+                <strong>Protocols</strong>
+                <div><span class="pill">UART</span><span class="pill">I2C</span><span class="pill">SPI</span><span class="pill">I2S / CAN (familiar)</span></div>
+              </div>
+              <div>
+                <strong>Embedded</strong>
+                <div><span class="pill">Firmware Dev</span><span class="pill">Peripheral Interfacing</span><span class="pill">ADC</span><span class="pill">GPIO</span></div>
+              </div>
+            </div>
+
+            <div>
+              <strong>Tools & Dev</strong>
+              <div style="margin-top:8px">
+                <span class="pill">Git</span><span class="pill">VS Code</span><span class="pill">Arduino IDE</span><span class="pill">MPLAB</span><span class="pill">Proteus</span>
+              </div>
+            </div>
+
+            <div style="margin-top:12px">
+              <strong>Hardware</strong>
+              <div style="margin-top:8px">
+                <span class="pill">Circuit Design</span><span class="pill">PCB Basics</span><span class="pill">Analog/Digital</span>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="card">
+          <section>
+            <h2>Job-ready keywords</h2>
+            <p class="meta">
+              Embedded C/C++, Firmware, Sensor Interfacing, UART, I2C, SPI, ADC, GPIO, Proteus, MPLAB,
+              Arduino, ESP32, Raspberry Pi, Git, Version Control, Debugging, Prototype Development, Test Reports.
+            </p>
+            <div style="margin-top:12px" class="cta">
+              <!-- Resume file must be uploaded to the GitHub repo root with same name -->
+              <a href="kommanapalli_yeswanth_ganesh_cv.pdf" download>Download Resume (PDF)</a>
+              <a href="mailto:yeswanthganeshk@gmail.com">Contact Me</a>
+            </div>
+          </section>
+        </div>
+
+        <div class="card">
+          <section>
+            <h2>Availability & Extra</h2>
+            <p class="meta">Location: Pithapuram, India • Open to Full-Time roles (0–2 yrs) • Notice period: Immediate</p>
+            <p style="margin-top:10px">Placement test dates / interviews: include on request. Happy to share code, schematics and Proteus simulations on GitHub repositories.</p>
+          </section>
+        </div>
+
+        <div class="card">
+          <section>
+            <h2>Quick Links</h2>
+            <ul>
+              <li><a href="https://github.com/yeswanthganeshk" target="_blank">GitHub — yeswanthganeshk</a></li>
+              <li><a href="https://www.linkedin.com/in/yeswanth-ganesh-kommanapalli-125ab6347" target="_blank">LinkedIn</a></li>
+              <li><a href="mailto:yeswanthganeshk@gmail.com">Email</a></li>
+            </ul>
+          </section>
+        </div>
+
+      </aside>
+    </div>
+
+    <footer style="text-align:center">
+      <div class="meta">© 2025 Yeswanth Ganesh K — Embedded Systems Portfolio • Built with HTML</div>
+    </footer>
+  </div>
+</body>
+</html>
